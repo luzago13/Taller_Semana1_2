@@ -8,22 +8,22 @@ public class Main {
     public static void main(String[] args) {
 
         //Caso 1
-         Calculadora.iniciar();
+         //Calculadora.iniciar();
 
         //Caso 2
-         Persona persona1 = new Persona("Juan", 25);
-         Persona persona2 = new Persona("María", 30);
-         persona1.mostrarDatos();
-         persona2.mostrarDatos();
+         //Persona persona1 = new Persona("Juan", 25);
+         //Persona persona2 = new Persona("María", 30);
+         //persona1.mostrarDatos();
+         //persona2.mostrarDatos();
 
         //Caso 3
-        // Operacion operacion = new Operacion();
-        // int sumaDosEnteros = operacion.sumar(5, 10);
-        // double sumaDosDecimales = operacion.sumar(4.5, 3.2);
-        // int sumaTresEnteros = operacion.sumar(3, 7, 12);
-        // System.out.println("Suma de dos enteros (5 + 10): " + sumaDosEnteros);
-        // System.out.println("Suma de dos decimales (4.5 + 3.2): " + sumaDosDecimales);
-        // System.out.println("Suma de tres enteros (3 + 7 + 12): " + sumaTresEnteros);
+         Operacion operacion = new Operacion();
+         int sumaDosEnteros = operacion.sumar(5, 10);
+         double sumaDosDecimales = operacion.sumar(4.5, 3.2);
+         int sumaTresEnteros = operacion.sumar(3, 7, 12);
+         System.out.println("Suma de dos enteros (5 + 10): " + sumaDosEnteros);
+         System.out.println("Suma de dos decimales (4.5 + 3.2): " + sumaDosDecimales);
+         System.out.println("Suma de tres enteros (3 + 7 + 12): " + sumaTresEnteros);
 
         //Caso 4
         // Contador c1 = new Contador();
