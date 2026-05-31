@@ -17,19 +17,19 @@ public class Main {
          //persona2.mostrarDatos();
 
         //Caso 3
-         Operacion operacion = new Operacion();
-         int sumaDosEnteros = operacion.sumar(5, 10);
-         double sumaDosDecimales = operacion.sumar(4.5, 3.2);
-         int sumaTresEnteros = operacion.sumar(3, 7, 12);
-         System.out.println("Suma de dos enteros (5 + 10): " + sumaDosEnteros);
-         System.out.println("Suma de dos decimales (4.5 + 3.2): " + sumaDosDecimales);
-         System.out.println("Suma de tres enteros (3 + 7 + 12): " + sumaTresEnteros);
+         //Operacion operacion = new Operacion();
+        // int sumaDosEnteros = operacion.sumar(5, 10);
+         //double sumaDosDecimales = operacion.sumar(4.5, 3.2);
+         //int sumaTresEnteros = operacion.sumar(3, 7, 12);
+        // System.out.println("Suma de dos enteros (5 + 10): " + sumaDosEnteros);
+        // System.out.println("Suma de dos decimales (4.5 + 3.2): " + sumaDosDecimales);
+        // System.out.println("Suma de tres enteros (3 + 7 + 12): " + sumaTresEnteros);
 
         //Caso 4
-        // Contador c1 = new Contador();
-        // Contador c2 = new Contador();
-        // Contador c3 = new Contador();
-        // System.out.println("Cantidad de objetos Contador creados: " + Contador.getContador());
+        Contador c1 = new Contador();
+        Contador c2 = new Contador();
+        Contador c3 = new Contador();
+         System.out.println("Cantidad de objetos Contador creados: " + Contador.getContador());
 
         //Caso 5
         //ListaEstudiantes.iniciar();
